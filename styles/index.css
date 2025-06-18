@@ -34,8 +34,8 @@ body{
     justify-content: space-between;
 }
 
-.navbar-items {
-    margin-right: 5rem;
+nav {
+    margin-right: 2rem;
     display: flex;
     gap: 15px;
     align-items: center
@@ -53,7 +53,12 @@ body{
     margin-left: 10px;
 }
 
+.navbar-item:hover {
+    color: var(--black);
+}
+
 .login {
+    margin-left: 10px;
     width: 100px;
     height: 30px;
     border-radius: 20px;
@@ -64,6 +69,24 @@ body{
 }
 
 .login:hover{
+    color: var(--off-white);
     background-color: var(--secundaria);
+    font-weight: bold;
+}
+
+.busca-icon {
+    margin-top: 5px;
+    width: 24px;
+    height: 24px;
+}
+
+.footer {
+    margin-bottom: 0;
+    height: 10em;
+    background-color: var(--primaria);
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px; 
 }
 
