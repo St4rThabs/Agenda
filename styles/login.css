@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primaria: #771144;
+    --secundaria: #951555;
+    --black: #1E0411;
+    --off-white: #FDF0F6;
+    --fonte-principal: 'Raleway', sans-serif;
+}
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+
+.form-check-input:checked {
+  background-color: var(--primaria); 
+  border-color: var(--primaria);
+}
+
+.form-check-input:focus {
+  border-color: var(--primaria);
+  box-shadow: 0 0 0 0.2rem rgba(119, 17, 68, 0.25); 
+}
+
+
+.login-btn {
+  width: 100%;
+  background-color: var(--primaria);
+  color: var(--off-white);
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 20px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.login-btn:hover {
+  background-color: var(--black);
+  color: var(--off-white);
+  transform: translateY(-2px);
+}
+
+.google-btn {
+  width: 100%;
+  color: var(--black);
+  font-weight: 600;
+  border: 2px solid var(--primaria);
+  border-radius: 6px;
+  padding: 12px 20px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.google-btn:hover {
+  background-color: var(--primaria);
+  color: var(--off-white);
+  transform: translateY(-2px);
+}
+
+.facebook-btn {
+    margin-top: 5px;
+  width: 100%;
+  color: var(--black);
+  font-weight: 600;
+  border: 2px solid var(--primaria);
+  border-radius: 6px;
+  padding: 12px 20px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.facebook-btn:hover {
+  background-color: var(--primaria);
+  color: var(--off-white);
+  transform: translateY(-2px);
+}

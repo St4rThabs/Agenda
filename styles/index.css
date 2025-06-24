@@ -17,6 +17,7 @@
 
 body{
     color: #FDF0F6;
+    background-color: var(--off-white);
 }
 
 #logo {
@@ -70,7 +71,7 @@ nav {
 
 .login:hover{
     color: var(--off-white);
-    background-color: var(--secundaria);
+    background-color: var(--black);
     font-weight: bold;
 }
 
@@ -89,4 +90,5 @@ nav {
     align-items: center;
     gap: 20px; 
 }
+
 
